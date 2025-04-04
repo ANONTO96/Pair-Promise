@@ -56,9 +56,9 @@ const Footer = () => {
                     <div className="my-3">
                         <h2 className="text-lg font-semibold text-rose-900">Follow Us</h2>
                         <div className="flex mt-3 space-x-4">
-                           <img className="w-8 h-8" src="https://img.icons8.com/?size=100&id=9foSA61V9037&format=png&color=FA5252" alt="" />
-                           <img className="w-8 h-8" src="https://img.icons8.com/?size=100&id=447&format=png&color=FA5252" alt="" />
-                           <img className="w-8 h-8" src="https://img.icons8.com/?size=100&id=6Fsj3rv2DCmG&format=png&color=FA5252" alt="" />
+                           <a href=""><img className="w-8 h-8" src="https://img.icons8.com/?size=100&id=9foSA61V9037&format=png&color=FA5252" alt="" /></a>
+                           <a href=""><img className="w-8 h-8" src="https://img.icons8.com/?size=100&id=447&format=png&color=FA5252" alt="" /></a>
+                           <a href=""><img className="w-8 h-8" src="https://img.icons8.com/?size=100&id=6Fsj3rv2DCmG&format=png&color=FA5252" alt="" /></a>
                         </div>
                     </div>
                     </div>

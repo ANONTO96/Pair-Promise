@@ -144,7 +144,7 @@ const Navbar = () => {
                 <div className="dropdown">
                     <button
                         tabIndex={0}
-                        className="btn btn-ghost lg:hidden text-rose-600"
+                        className="btn bg-transparent border-0 hover:bg-rose-200 lg:hidden text-rose-600"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -170,7 +170,7 @@ const Navbar = () => {
                 </div>
                 <Link
                     to="/"
-                    className="text-2xl font-bold btn btn-ghost text-rose-600 hover:text-rose-700 flex items-center"
+                    className="text-2xl font-bold text-rose-600 px-2 hover:text-rose-700 hover:bg-rose-200 hover:rounded-2xl flex items-center"
                 >
                     <img
                         className="w-12"

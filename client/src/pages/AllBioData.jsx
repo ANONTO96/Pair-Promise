@@ -106,7 +106,7 @@ const AllBioData = () => {
             </section>
 
             {/* All Member Profiles */}
-            <section className="w-[90%] md:w-[85%] mx-auto px-4">
+            <section className="w-[90%] md:w-[85%] lg:w-[70%] mx-auto px-4">
                 <Heading
                     heading={'Our Honorable Members'}
                     subHeading={

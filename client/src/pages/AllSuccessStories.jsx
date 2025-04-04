@@ -20,7 +20,7 @@ const AllSuccessStories = () => {
   }, []);
 
   return (
-    <div className="container mx-auto py-10">
+    <div className="max-w-7xl mx-auto py-10">
       <Heading heading={"All Success Stories"} subHeading={"Explore all the beautiful stories of love and commitment."} />
 
       {/* Success Marriage Count */}

@@ -1,20 +1,21 @@
 import React, { useContext } from "react";
 import { AuthContext } from "../providers/AuthProvider";
 import { Helmet } from 'react-helmet-async';
+import bg from '../assets/hand-in-hand.png'
 
 const ContactUs = () => {
     const { user } = useContext(AuthContext)
     return (
         <div className="container mx-auto px-4 py-20 bg-pink-50">
             <Helmet>
-        <title>Pair Promise | Contact Us</title>
-      </Helmet>
+                <title>Pair Promise | Contact Us</title>
+            </Helmet>
             <h1 className="text-4xl font-bold text-center text-pink-700 mb-8">-- Contact Us --</h1>
             <p className="text-lg text-gray-700 text-center mb-8">
                 We're here to help you on your journey to finding your perfect match. Feel free to reach out to us!
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+            <div className="grid max-w-4xl mx-auto grid-cols-1 md:grid-cols-2 gap-10 items-center">
                 {/* Contact Information */}
                 <div>
                     <h2 className="text-2xl font-semibold text-pink-700 mb-4">Get in Touch</h2>
@@ -35,7 +36,12 @@ const ContactUs = () => {
                 </div>
 
                 {/* Contact Form */}
-                <div className="bg-white p-6 rounded-lg shadow-md">
+                <div className="bg-white p-6 rounded-lg shadow-md"
+                    style={{
+                        backgroundImage: `url(${bg})`,
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+                    }}>
                     <h2 className="text-2xl font-semibold text-pink-700 mb-4">Send Us a Message</h2>
                     <form>
                         <div className="mb-4">
@@ -86,9 +92,9 @@ const ContactUs = () => {
                     Stay connected with us on social media for updates, tips, and success stories.
                 </p>
                 <div className="flex justify-center space-x-6">
-                    <img className="w-8 h-8" src="https://img.icons8.com/?size=100&id=9foSA61V9037&format=png&color=FF69B4" alt="" />
-                    <img className="w-8 h-8" src="https://img.icons8.com/?size=100&id=447&format=png&color=FF69B4" alt="" />
-                    <img className="w-8 h-8" src="https://img.icons8.com/?size=100&id=6Fsj3rv2DCmG&format=png&color=FF69B4" alt="" />
+                    <a href=""><img className="w-8 h-8" src="https://img.icons8.com/?size=100&id=9foSA61V9037&format=png&color=FA5272" alt="" /></a>
+                    <a href=""><img className="w-8 h-8" src="https://img.icons8.com/?size=100&id=447&format=png&color=FA5272" alt="" /></a>
+                    <a href=""><img className="w-8 h-8" src="https://img.icons8.com/?size=100&id=6Fsj3rv2DCmG&format=png&color=FA5272" alt="" /></a>
                 </div>
             </div>
         </div>

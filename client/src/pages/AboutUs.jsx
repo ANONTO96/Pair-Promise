@@ -2,7 +2,7 @@ import { Helmet } from 'react-helmet-async';
 
 const AboutUs = () => {
   return (
-    <div className="container mx-auto px-4 py-20">
+    <div className="max-w-5xl mx-auto px-8 py-20">
       <Helmet>
         <title>Pair Promise | About Us</title>
       </Helmet>
@@ -47,7 +47,7 @@ const AboutUs = () => {
       <section className="mb-10">
         <h2 className="text-2xl font-semibold mb-4">Get Started Today</h2>
         <p className="text-lg text-gray-700 leading-relaxed">
-          Whether you are looking for a soulmate or a companion for life's journey, <span className="font-bold text-pink-600">Pair Promise</span> 
+          Whether you are looking for a soulmate or a companion for life's journey, <span className="font-bold text-pink-600">Pair Promise </span> 
           is here to make your search easier and more enjoyable. Join us today and take the first step toward your happily ever after!
         </p>
       </section>
